@@ -2,8 +2,8 @@
 
 Class Numbers
 {
-    private int $a;
-    private int $b;
+    private $a;
+    private $b;
 
     public function __construct($a, $b)
     {
@@ -14,7 +14,7 @@ Class Numbers
     /**
      * @return int
      */
-    public function getA() : int
+    public function getA()
     {
         return $this->a;
     }
@@ -22,17 +22,17 @@ Class Numbers
     /**
      * @return int
      */
-    public function getB() : int
+    public function getB()
     {
         return $this->b;
     }
 
-    public function powNumbers($a, $b) : int
+    public function powNumbers($a, $b)
     {
         return pow($a, $b);
     }
 
-    public function divNumbers($a, $b) : int
+    public function divNumbers($a, $b)
     {
         return $a / $b;
     }
